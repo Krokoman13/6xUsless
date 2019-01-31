@@ -3,8 +3,8 @@
  */
 
 #include "Arduino.h"
-#include "src/AX12A.h"
-#include "src/Switches.h"
+#include "AX12A.h"
+#include "Switches.h"
 
 #define DirectionPin 	(10)
 #define BaudRate  		(1000000ul)
