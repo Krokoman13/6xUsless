@@ -66,6 +66,7 @@ void SlowFlip(int spd)  //Slowely and carefully flip the switch
   Infrontswitch(spd);
   delay(1500);
   Flip1(spd/4);
+  ax12a.moveSpeed(3u, 790, spd*2);
   delay(500);
   Infrontswitch(spd/4);
   delay(500);
